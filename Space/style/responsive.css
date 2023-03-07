@@ -1,0 +1,22 @@
+/* Header */
+
+@media (max-width: 992px){
+    header div.socials{
+        display: none;
+    }
+}
+@media (max-width: 650px) {
+    #menu{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* HOME */
+
+
+
+
+
+
+/* ABOUT */

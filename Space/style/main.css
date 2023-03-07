@@ -1,0 +1,90 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('./menu.css');
+body{
+    height: 100vh;
+    background-image: url('../img/space-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+
+}
+
+
+main{
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+section#data{
+    align-self: flex-end;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+}
+
+.heading{
+    text-align: center;
+}
+
+.headings h1{
+    font-size: 15vw;
+    position: relative;
+    left: -2vw;
+    font-weight: 500;
+    margin-bottom: 0;
+    
+}
+
+.headings h2{
+    font-size: 3vw;
+    position: relative;
+    left: -2vw;
+    font-weight: 100;
+
+}
+
+.homeImages{
+    position: relative;
+    z-index: -1;
+    
+}
+
+.homeImages img{
+    position: absolute;
+}
+
+.homeImages img:nth-of-type(1){
+    top: -10vh;
+    left: -20vw;
+}
+.homeImages img:nth-of-type(2){
+    top: -50vh;
+    left: -55vw;
+}
+.homeImages img:nth-of-type(3){
+    top: -50vh;
+    left: 20vw;
+}
+.homeImages img:nth-of-type(4){
+    top: -20vh;
+    left: -40vw;
+}
+.homeImages img:nth-of-type(5){
+    top: -40vh;
+    left: -5vw;
+}
+.homeImages img:nth-of-type(6){
+    top: -1vh;
+    left: -50vw;
+}
+.homeImages img:nth-of-type(7){
+    top: -20vh;
+    left: -10vw;
+}
